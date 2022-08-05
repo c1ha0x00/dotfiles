@@ -51,3 +51,7 @@ zinit snippet OMZP::archlinux
 zinit snippet OMZT::half-life
 # 从 https://github.com/zsh-users/zsh-syntax-highlighting 加载插件
 zinit load zsh-users/zsh-syntax-highlighting
+
+# Aliases
+# For dotfiles version control
+alias config='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
