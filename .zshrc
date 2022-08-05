@@ -55,3 +55,5 @@ zinit load zsh-users/zsh-syntax-highlighting
 # Aliases
 # For dotfiles version control
 alias config='/usr/bin/git --git-dir=$HOME/.myconfig/ --work-tree=$HOME'
+# ll
+alias ll='ls -alh --color'
